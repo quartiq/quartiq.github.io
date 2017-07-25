@@ -37,7 +37,7 @@ To support these efforts, we are hiring exceptionally skilled individuals with a
 * Fluent in Python and GNU/Linux
 * Proficient in English and German
 * Proven problem-solving capabilities
-* Success working flexibly and collaboratively in a distributed team environment
+* Ability to work collaboratively in a distributed team environment
 * Willingness to take on novel and unforeseen challenges and to dive deep into other fields
 
 ## Bonus points
