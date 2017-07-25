@@ -4,12 +4,14 @@ title: Quantum Control Systems Designer for opticlock
 keywords: Jobs, Quantum Physics, FPGA, ARTIQ, SINARA
 author-meta: QUARTIQ GmbH
 date: 2017-07-25
+css:
+- /styling.css
 
 ---
 
 [![QUARTIQ](/quartiq_small.png)](/)
 
-QUARTIQ is developing open-source next-generation control systems for Quantum Information experiments and products.
+QUARTIQ is a youg company in Berlin, German developing open-source next-generation control systems for Quantum Information experiments and products.
 Together with our partners worldwide, we are providing the software stack [ARTIQ](https://m-labs.hk/artiq/) and the hardware ecosystem [SINARA](https://github.com/m-labs/sinara) to research labs and industry.
 
 As a pilot project for the European flagship program on Quantum Technologies, a collaboration of experienced research groups and high-tech industry will develop [opticlock](http://www.opticlock.de/en/info/), a demonstrator of a compact optical clock with a high availability for end-users.
@@ -20,18 +22,18 @@ To support these efforts, we are hiring exceptionally skilled individuals with a
 ## Responsibilities
 
 * Extending and designing features for ARTIQ
-* Providing advice and input on hardware designs for SINARA components
-* Translating optical clock and ion trapping experimental recipes into ARTIQ experiments
+* Providing advice and input on hardware designs of SINARA components
+* Translating optical clock and ion trapping recipes into ARTIQ experiments
 * Developing novel algorithms for autonomous operation of optical clocks
-* Designing and implementing interfaces for novel cutting-edge hardware from SINARA and from other industry and academic partners
+* Designing and implementing interfaces for novel cutting-edge hardware from SINARA and from other industry and academic partners contributing to opticlock
 * Shaping the long term ARTIQ and SINARA goals and their road maps
 * Advising and collaborating with physicists and engineers on opticlock
 
 ## Requirements
 
-* Master degree in Computer Science, Electrical Engineering, Physics, Chemistry, or related or Bachelor's degree in the above fields with three years of working experience
+* Master degree in Computer Science, Electrical Engineering, Physics, Chemistry, or related or Bachelor's degree in the above fields with five years of working experience
 * Demonstrated experience in software engineering
-* Demonstrated collaboration in and significant contributions to open-source software projects
+* Demonstrated collaboration in and significant contributions to multiple open-source software projects
 * Quick learning skills and assimilation of novel programming languages (e.g. Rust) and engineering concepts
 * Fluent in Python and GNU/Linux
 * Proficient in English and German
@@ -45,5 +47,6 @@ To support these efforts, we are hiring exceptionally skilled individuals with a
 * Experience in working with programmable logic (FPGAs)
 * Experience in working in major Quantum Physics laboratories
 * Experience in building and debugging digital hardware
+* Experience in designing and improving domain specific languages
 
 Contact: Robert Jördens <[rj@quartiq.de](rj@quartiq.de)>
