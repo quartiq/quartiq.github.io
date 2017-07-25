@@ -20,25 +20,25 @@ To support these efforts, we are hiring exceptionally skilled individuals with a
 
 ## Responsibilities
 
-* *Extending and designing* features for ARTIQ
-* *Providing advice and input* on hardware designs of SINARA components
-* *Translating optical clock and ion trapping recipes* into ARTIQ experiments
-* *Developing* novel algorithms for autonomous operation of optical clocks
-* *Designing and implementing* interfaces for novel cutting-edge hardware from SINARA and from other industry and academic partners contributing to opticlock
-* *Shaping* the long term ARTIQ and SINARA goals and their road maps
-* *Advising and collaborating* with physicists and engineers on opticlock
+* Extending and designing features for ARTIQ
+* Providing advice and input on hardware designs of SINARA components
+* Translating optical clock and ion trapping recipes into ARTIQ experiments
+* Developing novel algorithms for autonomous operation of optical clocks
+* Designing and implementing interfaces for novel cutting-edge hardware from SINARA and from other industry and academic partners contributing to opticlock
+* Shaping the long term ARTIQ and SINARA goals and their road maps
+* Advising and collaborating with physicists and engineers on opticlock
 
 ## Requirements
 
-* *Master's degree* in Computer Science, Electrical Engineering, Physics, Chemistry, or related or *Bachelor's degree* in the above fields *with five years of working experience*
-* Demonstrated experience in *software engineering*
-* Demonstrated collaboration in and significant *contributions to multiple open-source software projects*
-* Quick learning skills and *assimilation of novel programming languages* (e.g. Rust) and engineering concepts
-* *Fluent in Python* and GNU/Linux
-* Proficient in *English and German*
-* Proven *problem-solving* capabilities
-* Success working flexibly and *collaboratively in a distributed team* environment
-* Willingness to take on *novel and unforeseen challenges* and to dive deep into other fields
+* Master's degree in Computer Science, Electrical Engineering, Physics, Chemistry, or related or Bachelor's degree in the above fields with five years of working experience
+* Demonstrated experience in software engineering
+* Demonstrated collaboration in and significant contributions to multiple open-source software projects
+* Quick learning skills and assimilation of novel programming languages (e.g. Rust) and engineering concepts
+* Fluent in Python and GNU/Linux
+* Proficient in English and German
+* Proven problem-solving capabilities
+* Success working flexibly and collaboratively in a distributed team environment
+* Willingness to take on novel and unforeseen challenges and to dive deep into other fields
 
 ## Bonus points
 
