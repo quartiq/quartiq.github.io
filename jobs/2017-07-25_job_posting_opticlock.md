@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Quantum Control Systems Designer for opticlock
-keywords: Jobs, Quantum Physics, FPGA, ARTIQ, SINARA
+keywords: Jobs, Quantum Physics, FPGA, ARTIQ, Sinara
 author-meta: QUARTIQ GmbH
 date: 2017-07-25
 css:
@@ -11,7 +11,7 @@ css:
 
 [![QUARTIQ](/quartiq_small.png)](/)
 
-QUARTIQ is a young company in Berlin, Germany developing next-generation control systems for Quantum Information experiments and products. Together with our partners worldwide, we are providing the **open-source software stack [ARTIQ](https://m-labs.hk/artiq/)** and the **open hardware ecosystem [SINARA](https://github.com/m-labs/sinara)** to research labs and industry.
+QUARTIQ is a young company in Berlin, Germany developing next-generation control systems for Quantum Information experiments and products. Together with our partners worldwide, we are providing the **open-source software stack [ARTIQ](https://m-labs.hk/artiq/)** and the **open hardware ecosystem [Sinara](https://github.com/m-labs/sinara)** to research labs and industry.
 
 As a pilot project for the European flagship program on Quantum Technologies, a collaboration of experienced research groups and high-tech industry teams will develop **[opticlock](http://www.opticlock.de/en/info/), a demonstrator of a compact, high-availability and high-accuracy optical clock using trapped ions**.
 QUARTIQ is developing the complete stack of control components, software, and algorithms for the device.
@@ -21,11 +21,11 @@ To support these efforts, we are hiring exceptionally skilled individuals with a
 ## Responsibilities
 
 * Extending and designing features for ARTIQ
-* Providing advice and input on hardware designs of SINARA components
+* Providing advice and input on hardware designs of Sinara components
 * Translating optical clock and ion trapping recipes into ARTIQ experiments
 * Developing novel algorithms for autonomous operation of optical clocks
-* Designing and implementing interfaces for novel cutting-edge hardware from SINARA and from other industry and academic partners contributing to opticlock
-* Shaping the long term ARTIQ and SINARA goals and their road maps
+* Designing and implementing interfaces for novel cutting-edge hardware from Sinara and from other industry and academic partners contributing to opticlock
+* Shaping the long term ARTIQ and Sinara goals and their road maps
 * Advising and collaborating with physicists and engineers on opticlock
 
 ## Requirements
