@@ -11,12 +11,12 @@ css:
 
 [![QUARTIQ](/quartiq_small.png)](/)
 
-QUARTIQ is a young company in Berlin, Germany developing next-generation control systems for Quantum Information experiments and products. Together with our partners worldwide, we are providing the **open-source software stack [ARTIQ](https://m-labs.hk/artiq/)** and the **open hardware ecosystem [Sinara](https://github.com/m-labs/sinara)** to research labs and industry.
+QUARTIQ is a young company based in Berlin, Germany, developing next-generation control systems for Quantum Information experiments and products. Together with our partners worldwide, we are providing the **open-source software stack [ARTIQ](https://m-labs.hk/artiq/)** and the **open hardware ecosystem [Sinara](https://github.com/m-labs/sinara)** to research labs and industry.
 
 As a pilot project for the European flagship program on Quantum Technologies, a collaboration of experienced research groups and high-tech industry teams will develop **[opticlock](http://www.opticlock.de/en/info/), a demonstrator of a compact, high-availability and high-accuracy optical clock using trapped ions**.
 QUARTIQ is developing the complete stack of control components, software, and algorithms for the device.
 
-To support these efforts, we are hiring exceptionally skilled individuals with a strong background in **Quantum Physics, Electrical Engineering, and Software engineering**.
+To support these efforts, we are hiring exceptionally skilled individuals with a strong background in **Quantum Physics**, **Electrical Engineering**, and **Software engineering**.
 
 ## Responsibilities
 
