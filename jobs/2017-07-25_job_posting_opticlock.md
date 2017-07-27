@@ -18,7 +18,15 @@ QUARTIQ is developing the complete stack of control components, software, and al
 
 To support these efforts, we are hiring exceptionally skilled individuals with a strong background in **Quantum Physics**, **Electrical Engineering**, and **Software engineering**.
 
-## Responsibilities
+## What We Offer
+
+* Unique field of work at the intersection of coding, physics, and hardware design
+* Flexible working hours in a highly skilled, open, enthusiastic, and friendly team
+* Close collaboration and interaction with leading experts on ARTIQ/Sinara, optical clocks, and ion trapping
+* Visits to collaborators and on-site work at opticlock and with other clients
+* High level of responsibility and freedom to influence design and implementation
+
+## Your Responsibilities
 
 * Extending and designing features for ARTIQ
 * Providing advice and input on hardware designs of Sinara components
