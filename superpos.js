@@ -16,19 +16,28 @@ let time = 0;
 // TODO: update canvas size on window resize
 // update nparticles respectively
 let canvas = document.querySelector("canvas");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
 let ctx = canvas.getContext("2d");
-ctx.fillStyle = color;
 
-let particles = (new Array(Math.round(pdensity * canvas.width * canvas.height)))
+let crispify = () => {
+  // see: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Optimizing_canvas#scaling_for_high_resolution_displays
+  const dpr = window.devicePixelRatio;
+
+  canvas.width = window.innerWidth * dpr;
+  canvas.height = window.innerHeight * dpr;
+
+  ctx.scale(dpr, dpr);
+
+  canvas.style.width = `${window.innerWidth}px`;
+  canvas.style.height = `${window.innerHeight}px`;
+};
+
+let particles = (new Array(Math.round(pdensity * window.innerWidth * window.innerHeight)))
   .fill(0)
   .map(() => [Math.random(), Math.random()]);
 
 let draw = () => particles.forEach(c => {
-  let x = Math.round(c[0] * canvas.width);
-  let y = Math.round(c[1] * canvas.height);
+  let x = Math.round(c[0] * window.innerWidth);
+  let y = Math.round(c[1] * window.innerHeight);
   ctx.fillRect(x, y, psize, psize);
 });
 
@@ -47,8 +56,8 @@ let dir = (p, m) => {
 };
 
 let wave = (p, m) => {
-  let lambda_abs = lambda * (canvas.width + canvas.height) / 2;
-  let r = Math.hypot((p[0] - m[0]) * canvas.width, (p[1] - m[1]) * canvas.height);
+  let lambda_abs = lambda * (window.innerWidth + window.innerHeight) / 2;
+  let r = Math.hypot((p[0] - m[0]) * window.innerWidth, (p[1] - m[1]) * window.innerHeight);
   return wavea * Math.sin((2 * Math.PI * (r - speed * time) / lambda_abs) + phi);
 };
 
@@ -65,7 +74,7 @@ let reset = () => particles.forEach(p => {
 });
 
 let loop = () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
 
   waves.forEach(m => rock(m));
   vibrate();
@@ -76,4 +85,6 @@ let loop = () => {
   window.requestAnimationFrame(loop);
 };
 
+crispify();
+ctx.fillStyle = color;
 window.requestAnimationFrame(loop);
