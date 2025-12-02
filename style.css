@@ -1,0 +1,62 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.logo {
+  width: 100%;
+  padding-top: 106.28%;
+  background: rgba(88, 22, 137, .2);
+  backdrop-filter: blur(2px);
+
+  mask-image: url(logo.svg);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+}
+
+main {
+  font-size: 6vw;
+  margin: 6vw;
+}
+
+@media (min-width: 600px) {
+  body {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .logo {
+    width: 50%;
+    padding-top: 53.14%;
+    flex-shrink: 0;
+  }
+
+  main {
+    font-size: 3vw;
+    margin: 6vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    font-size: 36px;
+    margin: 72px;
+  }
+}
